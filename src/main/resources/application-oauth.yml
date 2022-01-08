@@ -1,0 +1,17 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 491929978030-bcubi8usjo62rdm98ttf3oqf7sk010lu.apps.googleusercontent.com
+            client-secret: Sghq6pzYkG6vwHH5ueDYYYP-
+            scope: profile,email
+            redirect-uri: http://localhost:8080/login/oauth2/code/google
+#          naver:
+#            client-id: tJnDoWnlch9tVLpV5vd7
+#            client-secret: 48PTBeodnZ
+#            redirect-uri: {baseUrl}/{action}/oauth2/code/{registrationId}
+#            authorization-grant-type: authorization_code
+#            scope: name,email,profile_image
+#            client-name: Naver
